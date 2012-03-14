@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/libcamera.so:/obj/lib/libcamera.so 
-#    vendor/htc/marvel/proprietary/lib/libmemalloc.so:/obj/lib/libmemalloc.so 
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -53,12 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/marvel/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
 
-# Hardware
-#PRODUCT_COPY_FILES += \
-#    vendor/htc/marvel/proprietary/lib/hw/gralloc.marvel.so:/system/lib/hw/gralloc.marvel.so \
-#    vendor/htc/marvel/proprietary/lib/hw/hwcomposer.marvel.so:/system/lib/hw/hwcomposer.marvel.so \
-#    vendor/htc/marvel/proprietary/lib/hw/copybit.marvel.so:/system/lib/hw/copybit.marvel.so
-
 # All the blobs necessary for passion
 PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/libaudioeq.so:/system/lib/libaudioeq.so \
@@ -66,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/marvel/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/marvel/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/marvel/proprietary/lib/libmemalloc.so:/system/lib/libmemalloc.so \
     vendor/htc/marvel/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/htc/marvel/proprietary/lib/libmm-adspsvc.so:/system/lib/libmm-adspsvc.so \
     vendor/htc/marvel/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
